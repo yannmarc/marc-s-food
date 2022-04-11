@@ -1,0 +1,196 @@
+/* 
+    Author: Yann Marc
+    Theme: Marc's_Food Web Project
+    Version: 1.0
+*/
+
+/* General Admin section css */
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter';
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.clear-fix{
+    float: none;
+    clear: both;
+}
+
+.tbl_full{
+    width: 100%;
+}
+
+table tr th{
+    border-bottom: 1px solid grey;
+    padding: 1%;
+    text-align: left;
+
+}
+table tr td{
+    padding: 1%;
+}
+
+.table-30{
+    width: 30%;
+}
+.success{
+    color: #2ed573;
+    font-family: 600;
+}
+.error{
+    color: red;
+    font-family: 600;
+}
+/* CSS for btns section */
+.btn-primary{
+    background-color: #1e90ff;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.btn-primary:hover{
+    background-color: #3742fa;
+}
+
+.full-height{
+    height: 83vh;
+}
+
+.login{
+    width: 40%;
+    height: 50%;
+    background-color: white;
+    padding: 2% 2%;
+}
+.login-details{
+    width: 100%;
+}
+.login-details tr{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.login-details tr td input{
+    width: 100%;
+    border: none;
+    height: .2%;
+    border-bottom: 1px solid #2ed573;
+    background-color: transparent;
+    padding: .5em;
+    outline-color: #2ed573;
+}
+.login-details tr td input:focus{
+    border: #2ed573;
+}
+.login-details tr td input[type=submit]{
+    background-color: #2ed573;
+    border: none;
+    color: white;
+    margin-top: 5%;
+    padding: 4% 0;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+}
+.login h1{
+    text-align: center;
+    color: #ff6b81;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: .4em;
+    color: rgb(73, 73, 73);
+    text-decoration: none;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+.btn-danger{
+    background-color: #ff6b81;
+    padding: .4em;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: .2s ease-in-out;
+}
+.btn-danger:hover{
+    background-color: #ff4757;
+}
+.btn-add{
+    margin-top: 1%;
+    padding: 2%;
+    cursor: pointer
+}
+/* CSS for the buttons section ends here */
+
+
+/* CSS for the menu section */
+.menu{
+    border-bottom: 1px solid black;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #ff6b81;
+}
+
+.menu ul li a:hover{
+    color: #ff4757;
+}
+
+
+/* CSS for the main content */
+.main-content{
+    background-color: #f1f2f6 ;
+    padding: 3% 0;
+}
+.full-height{
+    height: 100%;
+    width: 100%;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4{
+    width: 18%;
+    background-color: #ffffff;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/* CSS for the footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
